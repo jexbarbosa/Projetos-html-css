@@ -1,0 +1,46 @@
+        body  {  	
+	       background: #FFF; 
+               } 
+        #geral  {  	
+	       width: 100%; 
+           height: 700px;
+	       background: #fff;
+          }    
+        #topo  {  	 	
+	       width: 100%; 
+           height:20%;
+	       background: navy;  
+	       }    
+        #lado  {  	
+	       float: left;  	
+	       width: 20%;  
+           height: 60%;
+	       background: antiquewhite;  	
+	       }    
+        #meio  {  	
+	       float: left;  	
+	       width: 80%;  
+           height: 60%;
+	       background: grey;  	
+	       }    
+        #rodape  {  	
+	       width: 100%;  
+           height: 20%;	
+	       background: purple;  
+           clear: both;/*com esta propriedade limpamos ambos os lados do elemento*/
+        }  
+
+/* formatação do elemento img */
+            img{
+                 border:2px solid #F00;
+                 width:400px;
+                 height:300px;
+                  }
+/* formatação do elemento figure*/
+            figure {
+                 display: block; /* esta propriedade em CSS faz com o elemento figure fique sozinho na linha. */
+                 margin-top:50px;
+                 margin-bottom: 80px;
+                 margin-left: 150px;
+                 margin-right: 40px;
+                 }
